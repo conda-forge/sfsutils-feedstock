@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "1.1.1"
+  version: "1.1.2"
   python_min: "3.11"
 
 package:
@@ -12,7 +12,7 @@ source:
   # The PyPI distribution is 'sfsutils-popgen', as the bare 'sfsutils' name on PyPI belongs to an
   # unrelated project. The import name and this conda package are 'sfsutils'.
   url: https://pypi.org/packages/source/s/sfsutils-popgen/sfsutils_popgen-${{ version }}.tar.gz
-  sha256: 31e30c74cc21c336a1f14c814295f68066e8dcee2f7f6318882e357c3fea08d4
+  sha256: 6a5cd2b24faa3c33424d776588467e11c294246b2b7e535bf1e8dc4de5c37185
 
 build:
   noarch: python
