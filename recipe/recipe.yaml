@@ -28,7 +28,7 @@ requirements:
     - pip
     - poetry-core
   run:
-    - python >=${{ python_min }},<3.14
+    - python >=${{ python_min }},<3.15
     - matplotlib-base >=3.9,<4
     - seaborn >=0.13.2,<1
     - numpy >=1.24,<3
