@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "1.1.2"
+  version: "1.1.3"
   python_min: "3.11"
 
 package:
@@ -12,7 +12,7 @@ source:
   # The PyPI distribution is 'sfsutils-popgen', as the bare 'sfsutils' name on PyPI belongs to an
   # unrelated project. The import name and this conda package are 'sfsutils'.
   url: https://pypi.org/packages/source/s/sfsutils-popgen/sfsutils_popgen-${{ version }}.tar.gz
-  sha256: 6a5cd2b24faa3c33424d776588467e11c294246b2b7e535bf1e8dc4de5c37185
+  sha256: 4aa890f9443fe29538e2a7cf6c376aac3e0ebc40fd3e46be5cb0235372378552
 
 build:
   noarch: python
@@ -32,8 +32,8 @@ requirements:
     - matplotlib-base >=3.9,<4
     - seaborn >=0.13.2,<1
     - numpy >=1.24,<3
-    - pandas >=2.2.2,<3
-    - jsonpickle >=3,<4
+    - pandas >=2.2.2,<4
+    - jsonpickle >=3,<5
     - multiprocess >=0.70.12,<0.71
     - tqdm >=4.60,<5
     - biopython >=1.84,<2
